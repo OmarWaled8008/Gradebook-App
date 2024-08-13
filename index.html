@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="con">
+      <div class="container">
+        <div class="overlay row">
+          <div class="col-6 col-s-12 col-xs-12">
+            <table>
+              <caption>
+                Enter Your Subjects Scores
+              </caption>
+              <tbody>
+                <tr>
+                  <td>Subject 1 :</td>
+                  <td>
+                    <input
+                      class="tableinput"
+                      type="number"
+                      placeholder="Score for subject 1"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Subject 2 :</td>
+                  <td>
+                    <input
+                      class="tableinput"
+                      type="number"
+                      placeholder="Score for subject 2"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Subject 3 :</td>
+                  <td>
+                    <input
+                      class="tableinput"
+                      type="number"
+                      placeholder="Score for subject 3"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Subject 4 :</td>
+                  <td>
+                    <input
+                      class="tableinput"
+                      type="number"
+                      placeholder="Score for subject 4"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Subject 5 :</td>
+                  <td>
+                    <input
+                      class="tableinput"
+                      type="number"
+                      placeholder="Score for subject 5"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Subject 6 :</td>
+                  <td>
+                    <input
+                      class="tableinput"
+                      type="number"
+                      placeholder="Score for subject 6"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Subject 7 :</td>
+                  <td>
+                    <input
+                      class="tableinput"
+                      type="number"
+                      placeholder="Score for subject 7"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Subject 8 :</td>
+                  <td>
+                    <input
+                      class="tableinput"
+                      type="number"
+                      placeholder="Score for subject 8"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Subject 9 :</td>
+                  <td>
+                    <input
+                      class="tableinput"
+                      type="number"
+                      placeholder="Score for subject 9"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Subject 10 :</td>
+                  <td>
+                    <input
+                      class="tableinput"
+                      type="number"
+                      placeholder="Score for subject 10"
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-6 col-s-12 col-xs-12">
+            <div class="score">
+              <div class="totalcore">
+                <h3>Enter Your Total Score</h3>
+                <input id="score" type="number" placeholder="Total Score" />
+              </div>
+              <button id="btn">Show Result</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="result" class="result">
+      <i id="close" class="fas fa-window-close"></i>
+      <div id="content" class="content">
+        Class average: &nbsp;<span id="average"></span>.&nbsp; Your grade:
+        &nbsp;<span id="grade"></span>.&nbsp; You &nbsp;<span id="status">
+        </span>
+        &nbsp; the course.
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

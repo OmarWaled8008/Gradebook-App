@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #747474;
+  /* padding: 15px; */
+  color: whitesmoke;
+}
+.con {
+  width: 100%;
+  padding: 15px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: url(premium_photo-1681248156477-9d00c17bd594.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.568);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.overlay table,
+tr,
+td {
+  border-collapse: collapse;
+  border: 2px solid #747474;
+}
+table {
+  background-color: rgba(245, 245, 245, 0.753);
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+td {
+  padding: 10px;
+}
+caption {
+  color: whitesmoke;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+input:focus-visible {
+  outline: none;
+  border: 1.5px solid #747474;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.totalcore {
+  width: 100%;
+}
+.totalcore h3 {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.totalcore input {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #747474;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #000;
+}
+.result {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.568);
+  display: none;
+}
+.resultshow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result i {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  color: whitesmoke;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.content {
+  width: 50%;
+  padding: 20px;
+  height: 50%;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+.content span {
+  font-weight: bold;
+  font-size: 18px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* margin: 15px 0px; */
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+  padding: 10px;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .col-xs-1 {
+    width: 8.33%;
+  }
+  .col-xs-2 {
+    width: 16.66%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.33%;
+  }
+  .col-xs-5 {
+    width: 41.66%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.33%;
+  }
+  .col-xs-8 {
+    width: 66.66%;
+  }
+  .col-xs-9 {
+    width: 75%;
+  }
+  .col-xs-10 {
+    width: 83.33%;
+  }
+  .col-xs-11 {
+    width: 91.66%;
+  }
+  .col-xs-12 {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* Typical Device Breakpoints */
+/* max-width 600px Extra samall devices  */
+/* max-width 600px portrait tablets landscape phones large phones and up  */
+/* max-width 768px landsacap tablets large tablet and up  */
+/* max-width 992px laptop and desktop and up  */
+/* max-width 1200px for large laptop and desktop and up  */
